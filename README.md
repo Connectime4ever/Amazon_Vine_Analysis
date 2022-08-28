@@ -7,25 +7,33 @@ PySpark has been used to perform the ETL process, to connect to an AWS RDS insta
 ---
 ## Results
 
-+***DataFrame of Amazon Music Vine Review program dataset***
++ ***DataFrame of Amazon Music Vine Review program dataset***
+
 ![d11](https://github.com/Connectime4ever/Amazon_Vine_Analysis/blob/main/d11.png)
 
-
+---
 +***Customer_table DataFrame***
+
 ![d12](https://github.com/Connectime4ever/Amazon_Vine_Analysis/blob/main/d12.png)
 
-
+---
 +***Products_table DataFrame*** 
+
 ![d13](https://github.com/Connectime4ever/Amazon_Vine_Analysis/blob/main/d13.png)
 
+---
 
 +***review_id_table DataFrame***
+
 ![d14](https://github.com/Connectime4ever/Amazon_Vine_Analysis/blob/main/d14.png)
 
+---
 
 +***vine_table_DataFrame***
+
 ![d15](https://github.com/Connectime4ever/Amazon_Vine_Analysis/blob/main/d15.png)
 
+---
 
 ***Quantity of Vine Reviews.***
 
