@@ -6,6 +6,23 @@ PySpark has been used to perform the ETL process, to connect to an AWS RDS insta
 The final purpose of the analysis is to determine is there is any bias toward favorable reviews from Vine members in the selected dataset.  This analysis could be performed by using either PySpark, Pandas or SQL. In this particular case PySpark was the chosen approach. 
 
 ## Results
+
+***DataFrame of Amazon Music Vine Review program dataset***
+![d11](https://github.com/Connectime4ever/Amazon_Vine_Analysis/blob/main/d11.png)
+
+***Customer_table DataFrame***
+![d12](https://github.com/Connectime4ever/Amazon_Vine_Analysis/blob/main/d12.png)
+
+***Products_table DataFrame*** 
+![d13](https://github.com/Connectime4ever/Amazon_Vine_Analysis/blob/main/d13.png)
+
+***review_id_table DataFrame***
+![d14](https://github.com/Connectime4ever/Amazon_Vine_Analysis/blob/main/d14.png)
+
+***vine_table_DataFrame***
+![d15](https://github.com/Connectime4ever/Amazon_Vine_Analysis/blob/main/d15.png)
+
+
 ***Quantity of Vine Reviews.***
 
 
@@ -27,13 +44,6 @@ Using bulleted lists and images of DataFrames as support, address the following 
 How many Vine reviews were 5 stars? How many non-Vine reviews were 5 stars?
 What percentage of Vine reviews were 5 stars? What percentage of non-Vine reviews were 5 stars?
 
-
-
-![d11](https://github.com/Connectime4ever/Amazon_Vine_Analysis/blob/main/d11.png)
-![d12](https://github.com/Connectime4ever/Amazon_Vine_Analysis/blob/main/d12.png)
-![d13](https://github.com/Connectime4ever/Amazon_Vine_Analysis/blob/main/d13.png)
-![d14](https://github.com/Connectime4ever/Amazon_Vine_Analysis/blob/main/d14.png)
-![d15](https://github.com/Connectime4ever/Amazon_Vine_Analysis/blob/main/d15.png)
 
 
 Summary:
