@@ -5,11 +5,17 @@ For this project a Music dataset from Amazon Vine review program was selected.
 PySpark has been used to perform the ETL process, to connect to an AWS RDS instance and load the transform data into pgAdmin. 
 The final purpose of the analysis is to determine is there is any bias toward favorable reviews from Vine members in the selected dataset.  This analysis could be performed by using either PySpark, Pandas or SQL. In this particular case PySpark was the chosen approach. 
 
-# Results
-Quantity of Vine Reviews.
-Quantity of Non-Vine Reviews. 
-Quantity of Vine Reviews with 5 Stars.
-Quantity of non-Vine Reviews with 5 Stars
+## Results
+####****Quantity of Vine Reviews.****
+
+
+####****Quantity of Non-Vine Reviews.*** 
+
+
+####****Quantity of Vine Reviews with 5 Stars.***
+
+
+####****Quantity of non-Vine Reviews with 5 Stars***
 
 
 
