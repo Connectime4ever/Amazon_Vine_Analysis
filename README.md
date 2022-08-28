@@ -1,29 +1,29 @@
 # Amazon Vine Analysis
 
 ## Overview of the analysis of the Vine program
-For this project a Music dataset from Amazon Vine review program was selected. 
+####For this project a Music dataset from Amazon Vine review program was selected. 
 PySpark has been used to perform the ETL process, to connect to an AWS RDS instance and load the transform data into pgAdmin. 
-The final purpose of the analysis is to determine is there is any bias toward favorable reviews from Vine members in the selected dataset.  This analysis could be performed by using either PySpark, Pandas or SQL. In this particular case PySpark was the chosen approach. 
+####The final purpose of the analysis is to determine is there is any bias toward favorable reviews from Vine members in the selected dataset.  This analysis could be performed by using either PySpark, Pandas or SQL. In this particular case PySpark was the chosen approach. 
 ---
 ## Results
 
-***DataFrame of Amazon Music Vine Review program dataset***
++***DataFrame of Amazon Music Vine Review program dataset***
 ![d11](https://github.com/Connectime4ever/Amazon_Vine_Analysis/blob/main/d11.png)
 
--
-***Customer_table DataFrame***
+
++***Customer_table DataFrame***
 ![d12](https://github.com/Connectime4ever/Amazon_Vine_Analysis/blob/main/d12.png)
 
--
-***Products_table DataFrame*** 
+
++***Products_table DataFrame*** 
 ![d13](https://github.com/Connectime4ever/Amazon_Vine_Analysis/blob/main/d13.png)
 
--
-***review_id_table DataFrame***
+
++***review_id_table DataFrame***
 ![d14](https://github.com/Connectime4ever/Amazon_Vine_Analysis/blob/main/d14.png)
 
--
-***vine_table_DataFrame***
+
++***vine_table_DataFrame***
 ![d15](https://github.com/Connectime4ever/Amazon_Vine_Analysis/blob/main/d15.png)
 
 
