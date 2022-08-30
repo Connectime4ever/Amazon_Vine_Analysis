@@ -59,7 +59,7 @@ How many Vine reviews were 5 stars? How many non-Vine reviews were 5 stars?
 What percentage of Vine reviews were 5 stars? What percentage of non-Vine reviews were 5 stars?
 <table class="t1" 
 <thead>
-<tr><th>**Description</th><th>Total quantity**</th></tr>
+<tr><th>**Description**</th><th>**Total**</th></tr>
 </thead>
 <tbody>
 <tr><td>Vine Reviews</td><td>100</td></tr>
@@ -71,47 +71,7 @@ What percentage of Vine reviews were 5 stars? What percentage of non-Vine review
 <tr><td>Total Reviews</td><td>100</td></tr>
 </tbody>
 </table>
-<style type="text/css">
 
-  table.t1 {
-    margin: 1em auto;
-    border-collapse: collapse;
-    font-family: Arial, Helvetica, sans-serif;
-  }
-  .t1 th, .t1 td {
-    padding: 4px 8px;
-  }
-  .t1 thead th {
-    background: #4f81bd;
-    text-transform: lowercase;
-    text-align: left;
-    font-size: 15px;
-    color: #fff;
-  }
-  .t1 tr {
-    border-right: 1px solid #95b3d7;
-  }
-  .t1 tbody tr {
-    border-bottom: 1px solid #95b3d7;
-  }
-  .t1 tbody tr:nth-child(odd) {
-    background: #dbe5f0;
-  }
-  .t1 tbody th, .t1 tbody tr:nth-child(even) td {
-    border-right: 1px solid #95b3d7;
-  }
-  .t1 tfoot th {
-    background: #4f81bd;
-    text-align: left;
-    font-weight: normal;
-    font-size: 10px;
-    color: #fff;
-  }
-  .t1 tr *:nth-child(3), .t1 tr *:nth-child(4) {
-    text-align: right;
-  }
-
-</style>
 
 ## Summary:
 
