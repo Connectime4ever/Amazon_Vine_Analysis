@@ -35,6 +35,11 @@
 
 ---
 
+***vine_df to table in RDS***
+
+![d20]((https://github.com/Connectime4ever/Amazon_Vine_Analysis/blob/main/d15.png)
+
+
 ***Quantity of Vine Reviews.***
 
 
