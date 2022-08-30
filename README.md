@@ -59,7 +59,7 @@ How many Vine reviews were 5 stars? How many non-Vine reviews were 5 stars?
 What percentage of Vine reviews were 5 stars? What percentage of non-Vine reviews were 5 stars?
 <table class="t1" 
 <thead>
-<tr><th>**Description**</th><th>**Total**</th></tr>
+<tr><th> DESCRIPTION </th><th> Total </th></tr>
 </thead>
 <tbody>
 <tr><td>Vine Reviews</td><td>100</td></tr>
