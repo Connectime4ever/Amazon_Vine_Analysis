@@ -78,6 +78,6 @@
 
 + Because of the above mentioned limitations, this analysis would not be useful to confirm or not if there migth be or not bias in the ratings of the vine program.  
 
-+ To really test any bias it is recommended working with a sample with same number of unpaid and paid reviews, thus the patherns of both groups can be contrasted.
++ To really test any bias it is recommended working with a sample with same number of unpaid and paid reviews, thus the patherns and performance of both groups can be contrasted.
 
 
