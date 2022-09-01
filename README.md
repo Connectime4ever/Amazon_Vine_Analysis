@@ -67,13 +67,17 @@
 
 ![Percentages](https://github.com/Connectime4ever/Amazon_Vine_Analysis/blob/main/Percentages.png)
 
+***Please see additional queries performed in Vine_Review_Analysis.sql***
+
 
 ## Summary:
 
  + The selected dataset for this analyis has no representation of paid reviews. That said, there is no data that can show evidence of bias toward favorable reviews from Vine members.  
 
-+ As a result other questions arise: what are the chances of having paid reviews vs. uppaid reviews? Are paid reviews common in the universe or very unlikely? The answers of this questions could bring some clarity for further analysis and steps. 
++ As a result other questions arise: what are the chances of having paid reviews vs. uppaid reviews? Are paid reviews common in the universe or very unlikely? The answers of these questions could bring some clarity for further analysis and steps. 
 
-+ Because of the above mentioned limitations, this analysis would not be useful to confirm or not if there migth be or not bias in the ratings of the vine program.  To really test this it is recommended working with a sample with same number of unpaid and paid reviews, thus the patherns of both groups can be contrasted.
++ Because of the above mentioned limitations, this analysis would not be useful to confirm or not if there migth be or not bias in the ratings of the vine program.  
+
++ To really test any bias it is recommended working with a sample with same number of unpaid and paid reviews, thus the patherns of both groups can be contrasted.
 
 
