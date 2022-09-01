@@ -1,13 +1,13 @@
 # Amazon Vine Analysis
 
 ## Overview of the analysis of the Vine program
-#### For this project a Music dataset from Amazon Vine review program was selected. 
+#### For this project a Book dataset from Amazon Vine review program was selected. 
 #### PySpark has been used to perform the ETL process, to connect to an AWS RDS instance and load the transform data into pgAdmin. 
-#### The final purpose of the analysis is to determine is there is any bias toward favorable reviews from Vine members in the selected dataset.  This analysis could be performed by using either PySpark, Pandas or SQL. In this particular case PySpark was the chosen approach. 
+#### The final purpose of the analysis is to determine is there is any bias toward favorable reviews from Vine members in the selected dataset.  This analysis could be performed by using either PySpark, Pandas or SQL. In this particular case, SQL was the chosen approach. 
 
 ## Results
 
-***DataFrame of Amazon Music Vine Review program dataset***
+***DataFrame of Amazon Book Vine Review program dataset***
 
 ![d11](https://github.com/Connectime4ever/Amazon_Vine_Analysis/blob/main/d11.png)
 
@@ -40,45 +40,37 @@
 ![d20](https://github.com/Connectime4ever/Amazon_Vine_Analysis/blob/main/d20.png)
 
 
- + ***Quantity of Vine Reviews.***
+***vine_df successfully exported as from AWS database as CSV file and imported to a local database in pgAdmin.***
+![d21](https://github.com/Connectime4ever/Amazon_Vine_Analysis/blob/main/d21.png)
+
+#### As requested the original table "vine_table" was filtered and a new table created to retrive all the rows where the total_votes count was greater than 20.  
+#### This step was suggested to pick only those reviews that were more likely to be helpful and to avoid a zero division error. 
+#### The new table created was named filtered_20 and it is the start point for the subsequent steps (fitering, tables creation and queries.)  
+![filtered_20](https://github.com/Connectime4ever/Amazon_Vine_Analysis/blob/main/filtered_20.png)
 
 
-+ ***Quantity of Non-Vine Reviews.*** 
+#### After perfoming the queries the main results are:
 
+ + There was a total of 501609 vine reviews with total_votes count greater than 20. 
+![total](https://github.com/Connectime4ever/Amazon_Vine_Analysis/blob/main/total.png)
 
-+ ***Quantity of Vine Reviews with 5 Stars.***
++ The 100% of the reviews were unpaid reviews (***501609***). There was no any paid review in the data. 
+![eachtype](https://github.com/Connectime4ever/Amazon_Vine_Analysis/blob/main/eachtype.png)
 
++ There were 258381 total 5 star reviews, 100% of them were unpaid reviews and there was zero paid 5 star reviews.
+![Total5StarReviews](https://github.com/Connectime4ever/Amazon_Vine_Analysis/blob/main/Total5StarReviews.png)
 
-+ ***Quantity of non-Vine Reviews with 5 Stars***
+![unpaid5](https://github.com/Connectime4ever/Amazon_Vine_Analysis/blob/main/upaid5.png)
 
-
-Using bulleted lists and images of DataFrames as support, address the following questions:
-
-
-How many Vine reviews were 5 stars? How many non-Vine reviews were 5 stars?
-What percentage of Vine reviews were 5 stars? What percentage of non-Vine reviews were 5 stars?
-<table class="t1" 
-<thead>
-<tr><th> DESCRIPTION </th><th> Total </th></tr>
-</thead>
-<tbody>
-<tr><td>Vine Reviews</td><td>100</td></tr>
-<tr><td>Non-Vine Reviews</td><td>100</td></tr>
-<tr><td>Vine Reviews with 5 starts</td><td>100</td></tr>
-<tr><td>Non-Vine Reviews with 5 starts</td><td>100</td></tr>
-<tr><td>Percentage of Vine Reviews with 5 starts</td><td>100</td></tr>
-<tr><td>Percentage of Non-Vine Reviews with 5 starts</td><td>100</td></tr>
-<tr><td>Total Reviews</td><td>100</td></tr>
-</tbody>
-</table>
+![Percentages](https://github.com/Connectime4ever/Amazon_Vine_Analysis/blob/main/Percentages.png)
 
 
 ## Summary:
 
-The results of this analysis show that there is no bias for reviews in the Vine program. 
+ + The selected dataset for this analyis has no representation of paid reviews. That said, there is no data that can show evidence of bias for the vine program. 
 
-In your summary, state if there is any positivity bias for reviews in the Vine program. Use the results of your analysis to support your statement. 
++ As a result other questions arise: what are the chances of having paid reviews vs. uppaid reviews? Are paid reviews common in the universe or very unlikely? The answers of this questions could bring some clarity for further analysis and steps. 
 
-An additional analysis that could be performed to support this conclusion is Then, provide one additional analysis that you could do with the dataset to support your statement.
++ Because of the above mentioned limitations, this analysis would not be useful to confirm or not if there migth be or not bias in the ratings of the vine program.  To really test this it is recommended working with a sample with same number of unpaid and paid reviews, thus the patherns of both groups can be contrasted.
 
 
