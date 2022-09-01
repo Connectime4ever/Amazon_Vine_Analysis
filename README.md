@@ -63,7 +63,7 @@
 
 + 100% of them were unpaid reviews, thus zero paid 5 star reviews. Please see these outputs below from the queries performed. 
 
-![unpaid5](https://github.com/Connectime4ever/Amazon_Vine_Analysis/blob/main/upaid5.png)
+![unpaid5](https://github.com/Connectime4ever/Amazon_Vine_Analysis/blob/main/unpaid5.png)
 
 ![Percentages](https://github.com/Connectime4ever/Amazon_Vine_Analysis/blob/main/Percentages.png)
 
