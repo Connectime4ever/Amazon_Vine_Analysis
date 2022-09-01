@@ -40,25 +40,28 @@
 ![d20](https://github.com/Connectime4ever/Amazon_Vine_Analysis/blob/main/d20.png)
 
 
-***vine_df successfully exported as from AWS database as CSV file and imported to a local database in pgAdmin.***
+***vine_df successfully exported from AWS database as CSV file and imported to a local database in pgAdmin.***
 ![d21](https://github.com/Connectime4ever/Amazon_Vine_Analysis/blob/main/d21.png)
 
 #### As requested the original table "vine_table" was filtered and a new table created to retrive all the rows where the total_votes count was greater than 20.  
 #### This step was suggested to pick only those reviews that were more likely to be helpful and to avoid a zero division error. 
-#### The new table created was named filtered_20 and it is the start point for the subsequent steps (fitering, tables creation and queries.)  
+#### The new table created was named filtered_20 and it is the start point for the subsequent steps (filtering, new tables creation and queries.)  
 ![filtered_20](https://github.com/Connectime4ever/Amazon_Vine_Analysis/blob/main/filtered_20.png)
 
 
 #### After perfoming the queries the main results are:
 
  + There was a total of 501609 vine reviews with total_votes count greater than 20. 
-![total](https://github.com/Connectime4ever/Amazon_Vine_Analysis/blob/main/total.png)
+![Total](https://github.com/Connectime4ever/Amazon_Vine_Analysis/blob/main/Total.png)
 
 + The 100% of the reviews were unpaid reviews (***501609***). There was no any paid review in the data. 
 ![eachtype](https://github.com/Connectime4ever/Amazon_Vine_Analysis/blob/main/eachtype.png)
 
-+ There were 258381 total 5 star reviews, 100% of them were unpaid reviews and there was zero paid 5 star reviews.
++ Out of the 501609 total reviews, 258381 were 5 star reviews.
+
 ![Total5StarReviews](https://github.com/Connectime4ever/Amazon_Vine_Analysis/blob/main/Total5StarReviews.png)
+
++ 100% of them were unpaid reviews, thus zero paid 5 star reviews. Please see these outputs below from the queries performed. 
 
 ![unpaid5](https://github.com/Connectime4ever/Amazon_Vine_Analysis/blob/main/upaid5.png)
 
