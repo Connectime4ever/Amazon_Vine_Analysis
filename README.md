@@ -70,7 +70,7 @@
 
 ## Summary:
 
- + The selected dataset for this analyis has no representation of paid reviews. That said, there is no data that can show evidence of bias for the vine program. 
+ + The selected dataset for this analyis has no representation of paid reviews. That said, there is no data that can show evidence of bias toward favorable reviews from Vine members.  
 
 + As a result other questions arise: what are the chances of having paid reviews vs. uppaid reviews? Are paid reviews common in the universe or very unlikely? The answers of this questions could bring some clarity for further analysis and steps. 
 
