@@ -84,7 +84,7 @@ WHERE (star_rating = 5 AND vine = 'Y' )
 GROUP BY star_rating
 
 -- Determine total count of 5-star unpaid reviews
-SELECT star_rating, COUNT(review_id) as "Total 5 star Paid Reviews"
+SELECT star_rating, COUNT(review_id) as "Total 5 star Unpaid Reviews"
 FROM filtered_20
 WHERE (star_rating = 5 AND vine = 'N' )
 GROUP BY star_rating
