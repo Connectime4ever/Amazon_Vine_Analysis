@@ -46,7 +46,7 @@
 
 #### After perfoming the queries the main results are:
 
-+ The total number of review recorded in the selected dataset is 3105520.
++ The total number of reviews recorded in the selected dataset is 3105520.
 ![Total](https://github.com/Connectime4ever/Amazon_Vine_Analysis/blob/main/Total.png)
 
 + There are 3105513 unpaid reviews, 2 paid reviews and 5 rows show null values.
@@ -54,11 +54,11 @@
 ![eachtype](https://github.com/Connectime4ever/Amazon_Vine_Analysis/blob/main/eachtype.png)
 
 
-+  The number of 5 star reviews is 1864804.
++  The total number of 5 star reviews is 1864804.
 
 ![Total5StarReviews](https://github.com/Connectime4ever/Amazon_Vine_Analysis/blob/main/Total5StarReviews.png)
 
-+ There are 1864803 unpaid reviews, and 1 paid 5 star review, each of them accounting for the percentage show in this table below.  
++ There are 1864803 unpaid 5-star reviews, and only 1 paid 5-star review. Please find below the percentage each of them accounts for.
 
 ![Percentages](https://github.com/Connectime4ever/Amazon_Vine_Analysis/blob/main/Percentages.png)
 
