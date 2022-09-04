@@ -67,7 +67,7 @@
 
 ## Summary:
 
-+ There is no evidences of bias toward favorable reviews from Vine members based on the dataset query results. 
++ There is no evidences of bias toward favorable reviews from Vine members based the analysis of the selected dataset. 
 
 + The dataset selected has no significant representation of paid reviews so this analysis has an important limitation to confirm or not if there might be bias in the ratings of the vine program.
 
