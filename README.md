@@ -43,27 +43,22 @@
 ***vine_df successfully exported from AWS database as CSV file and imported to a local database in pgAdmin.***
 ![d21](https://github.com/Connectime4ever/Amazon_Vine_Analysis/blob/main/d21.png)
 
-#### As requested the original table "vine_table" was filtered and a new table created to retrive all the rows where the total_votes count was greater than 20.  
-#### This step was suggested to pick only those reviews that were more likely to be helpful and to avoid a zero division error. 
-#### The new table created was named filtered_20 and it is the start point for the subsequent steps (filtering, new tables creation and queries.)  
-![filtered_20](https://github.com/Connectime4ever/Amazon_Vine_Analysis/blob/main/filtered_20.png)
-
 
 #### After perfoming the queries the main results are:
 
- + There was a total of 501609 vine reviews with total_votes count greater than 20. 
++ The total number of review recorded in the selected dataset is 3105520.
 ![Total](https://github.com/Connectime4ever/Amazon_Vine_Analysis/blob/main/Total.png)
 
-+ The 100% of the reviews were unpaid reviews (***501609***). There was no any paid review in the data. 
++ There are 3105513 unpaid reviews, 2 paid reviews and 5 rows show null values.
+
 ![eachtype](https://github.com/Connectime4ever/Amazon_Vine_Analysis/blob/main/eachtype.png)
 
-+ Out of the 501609 total reviews, 258381 were 5 star reviews.
+
++  The number of 5 star reviews is 1864804.
 
 ![Total5StarReviews](https://github.com/Connectime4ever/Amazon_Vine_Analysis/blob/main/Total5StarReviews.png)
 
-+ 100% of them were unpaid reviews, thus zero paid 5 star reviews. Please see these outputs below from the queries performed. 
-
-![unpaid5](https://github.com/Connectime4ever/Amazon_Vine_Analysis/blob/main/unpaid5.png)
++ There are 1864803 unpaid reviews, and 1 paid 5 star review, each of them accounting for the percentage show in this table below.  
 
 ![Percentages](https://github.com/Connectime4ever/Amazon_Vine_Analysis/blob/main/Percentages.png)
 
@@ -72,12 +67,10 @@
 
 ## Summary:
 
- + The selected dataset for this analyis has no representation of paid reviews. That said, there is no data that can show evidence of bias toward favorable reviews from Vine members.  
++ There is no evidences of bias toward favorable reviews from Vine members based on the dataset query results. 
 
-+ As a result other questions arise: what are the chances of having paid reviews vs. uppaid reviews? Are paid reviews common in the universe or very unlikely? The answers of these questions could bring some clarity for further analysis and steps. 
++ The dataset selected has no significant representation of paid reviews so this analysis has an important limitation to confirm or not if there might be bias in the ratings of the vine program.
 
-+ Because of the above mentioned limitations, this analysis would not be useful to confirm or not if there migth be or not bias in the ratings of the vine program.  
-
-+ To really test any bias it is recommended working with a sample with same number of unpaid and paid reviews, thus the patherns and performance of both groups can be contrasted.
++ In order to be able to really test any bias, it is recommended working with a sample with same number of unpaid and paid reviews, thus the patherns and performance of both groups can be contrasted.
 
 
