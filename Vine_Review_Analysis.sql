@@ -46,7 +46,7 @@ INTO vine_paid
 FROM greater_50
 WHERE (vine = 'Y');
 
--- 3. Filter greater_50 table and create a new table (vine_unpaid) that retrieves all the rows 
+-- 4. Filter greater_50 table and create a new table (vine_unpaid) that retrieves all the rows 
 -- where a review was not written as part of the Vine program
 
 
@@ -60,39 +60,26 @@ INTO vine_paid
 FROM greater_50
 WHERE (vine = 'N');
 
--- Determine total number of reviews from filtered_20 table.
+--5.1 Determine total number of reviews from vine_table.
 SELECT COUNT (review_id)
-FROM filtered_20;
+FROM vine_table;
 
--- Determine total number of reviews paid and unpaid from filtered_20 table
+-- Determine total number of paid and unpaid reviews from vine_table.
 SELECT vine AS "Vine Review Type (Paid-Y, Unpaid-N)",
-COUNT(review_id) AS reviews
-FROM filtered_20
+	COUNT(review_id) AS reviews
+FROM vine_table
 GROUP BY vine;
 
-
--- Determine the number of 5-star reviews from filtered_20 table.
+-- 5.2 Determine the number of 5-star reviews from vine_table.
 SELECT star_rating, COUNT(review_id) as "Total 5 star Reviews"
-FROM filtered_20
+FROM vine_table
 WHERE (star_rating = 5)
 GROUP BY star_rating
 
--- Determine total count of 5-star paid reviews
-SELECT star_rating, COUNT(review_id) as "Total 5 star Paid Reviews"
-FROM filtered_20
-WHERE (star_rating = 5 AND vine = 'Y' )
-GROUP BY star_rating
-
--- Determine total count of 5-star unpaid reviews
-SELECT star_rating, COUNT(review_id) as "Total 5 star Unpaid Reviews"
-FROM filtered_20
-WHERE (star_rating = 5 AND vine = 'N' )
-GROUP BY star_rating
-
--- Determine the percentage of 5-star reviews for paid and non-paid reviews
+--5.3 Determine the percentage of 5-star reviews for paid and non-paid reviews
 SELECT vine AS "Vine Review Type (Paid-Y, Unpaid-N)",
 	COUNT(review_id) AS reviews,
 	COUNT(*)*100.0 / SUM(COUNT(*)) OVER()AS "% of total reviews" 
-FROM filtered_20
+FROM vine_table
 WHERE star_rating = 5 
 GROUP BY vine;
